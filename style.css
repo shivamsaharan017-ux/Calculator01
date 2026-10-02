@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:'Roboto',sans-serif;
+    font-family: 'Ubuntu',sans-serif;
+}
+.button{
+    padding:20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 0 3px;
+    cursor:pointer;
+    width: 65px;
+    background-color: darkgray;
+}
+/* .button-main{
+    background-color: orange;
+    padding:20px;
+    border-radius: 9px;
+    cursor:pointer;
+    border: 2px solid black;
+} */
+.row{
+    margin: 6px 0;
+}
+.row input{
+    width: 288px;
+    font-size: 23px;
+    margin: 0;
+    padding: 14px 2px;
+    border: 2px solid black;
+    border-radius:5px ;
+}
+.cont{
+    border: 2px solid black;
+    padding: 2px 6px;
+    background-color: rgb(59, 59, 59);
+}
